@@ -1,0 +1,113 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #1b1f23;
+  color: #c9d1d9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #24292e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.Header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Controls input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #c9d1d9;
+}
+
+.Controls button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.Profile {
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #333;
+}
+
+.ProfileHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ProfileHeader img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.ProfileInfo h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.ProfileInfo p {
+  margin: 0;
+  color: #8f949a;
+}
+
+.ProfileStats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #8f949a;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.ProfileStats div {
+  text-align: center;
+}
+
+.ProfileStats span {
+  font-weight: bold;
+  display: block;
+}
+
+.ProfileStatsImages {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+}
+
+.ProfileStatsImages img {
+max-width: 48%;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
