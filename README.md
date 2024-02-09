@@ -40,4 +40,4 @@ The Tech Stacks used are:
 
 Name: Chetan Chauhan - chauhanchetan12789@gmail.com
 
-Project Link: 
+Project Link: https://65c64c7e55410b111c66ee45--github-profile-viewer-3327.netlify.app/
